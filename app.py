@@ -51,6 +51,6 @@ def delete(id):
 
 
 if __name__ == '__main__':
-    db.create_all()
+    #db.create_all()
     app.run()
     #app.run('0.0.0.0', 8080, debug=True)
